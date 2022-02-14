@@ -2,15 +2,15 @@ import UIKit
 
 final class ___VARIABLE_viperName___ViewController: UIViewController {
 
-  var output: ___VARIABLE_viperName___UIOutput!
+  var coordinator: ___VARIABLE_viperName___UIOutput!
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    output.viewDidLoad()
+    coordinator.viewDidLoad()
   }
 }
 
-extension ___VARIABLE_viperName___: ___VARIABLE_viperName___UIInput {
+extension ___VARIABLE_viperName___ViewController: ___VARIABLE_viperName___UIInput {
 
 }
